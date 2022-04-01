@@ -5,7 +5,6 @@
     padding: 1.5625rem 5rem;
     display: flex;
     justify-content: space-between;
-
 }
 .copyright{
     padding-top: 0.65rem;
@@ -16,4 +15,9 @@
 }
 .icon i:hover{
     color: #000;
+}
+@media screen and (max-width: 500px){
+    .pie-de-pagina{
+    padding: 1.5625rem 1rem;
+    }
 }
